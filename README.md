@@ -2,11 +2,10 @@
 
 # Week 4 Assignment
 
-## Link of your repository
+* Link of your repository
 [Repository Link](@jeongwoo1020)
 
-## YOUR_CODE
-'''python
+```python
 def isHappy(n):
   while True:
     sum = 0
@@ -17,10 +16,10 @@ def isHappy(n):
     elif sum == 4:
       return False
     n = sum
-'''
+```
 
-## Description of your code
-This function checks if a given number n is a "happy number", takes an integer n as input and enters a while True loop.
+* Description of your code
+This function checks if a given number n is a "happy number", takes an integer n as input and enters a while True loop./
 If the sum equals 4, it returns False, meaning the process will enter an unhappy number cycle and will never reach 1.
 
 >> isHappy(19) => True
@@ -30,14 +29,13 @@ If the sum equals 4, it returns False, meaning the process will enter an unhappy
 
 # Week 5 Assignment
 
-### Command 1
-```bash
+>>```bash
 docker exec <your_container> cat /etc/os-release
 ```
-This command executes the cat /etc/os-release command inside the running Docker container to display information about the operating system. The output will include details like the OS name, version, and ID.
+>> * This command executes the cat /etc/os-release command inside the running Docker container to display information about the operating system. The output will include details like the OS name, version, and ID.
 <br>
-### Command 2
-```bash
+
+>>```bash
 docker exec <your_container> git --version
 ```
 This command shows the installed version of Git within the Docker container by running git --version. It ensures that Git is installed and displays its version number.
