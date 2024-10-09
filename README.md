@@ -1,9 +1,9 @@
 # SWE_2021_41_2024_2_week_6
 
-# Week 4 Assignment
+## Week 4 Assignment
 
 * Link of your repository
-[Repository Link](@jeongwoo1020)
+[Repository Link]([@jeongwoo1020](https://github.com/jeongwoo1020/SWE_2021_41_2024_2_week_4))
 
 ```python
 def isHappy(n):
@@ -25,7 +25,7 @@ If the sum equals 4, it returns False, meaning the process will enter an unhappy
 > isHappy(19) => True\isHappy(2) => False 
 ---
 
-# Week 5 Assignment
+## Week 5 Assignment
 
 ```bash
 docker exec <your_container> cat /etc/os-release
