@@ -2,8 +2,7 @@
 
 ## Week 4 Assignment
 
-* Link of your repository
-[Repository Link]([@jeongwoo1020](https://github.com/jeongwoo1020/SWE_2021_41_2024_2_week_4))
+* Link of [Repository Link](https://github.com/jeongwoo1020/SWE_2021_41_2024_2_week_4)
 
 ```python
 def isHappy(n):
@@ -19,10 +18,13 @@ def isHappy(n):
 ```
 
 * Description of your code
-This function checks if a given number n is a "happy number", takes an integer n as input and enters a while True loop./
-If the sum equals 4, it returns False, meaning the process will enter an unhappy number cycle and will never reach 1.
+This function, isHappy(n) checks if a given number n is a "happy number"
 
-> isHappy(19) => True\isHappy(2) => False 
+It takes an integer n as input and enters a while True loop.
+
+If the sum equals 4, it returns False, meaning the cycle will never reach 1.
+
+> isHappy(19) => True  isHappy(2) => False 
 ---
 
 ## Week 5 Assignment
@@ -32,6 +34,8 @@ docker exec <your_container> cat /etc/os-release
 ```
 > * This command executes the cat /etc/os-release command inside the running Docker container to display information about the operating system. The output will include details like the OS name, version, and ID.
 <br>
+> docker exec: Executes a command inside a container.
+> cat /etc/os-release: Reads and displays the contents of the /etc/os-release file, which contains information about the operating system inside the container 
 
 ```bash
 docker exec <your_container> git --version
