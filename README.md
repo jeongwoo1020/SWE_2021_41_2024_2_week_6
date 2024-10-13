@@ -24,7 +24,8 @@ It takes an integer n as input and enters a while True loop.
 
 If the sum equals 4, it returns False, meaning the cycle will never reach 1.
 
-> isHappy(19) => True  isHappy(2) => False 
+> isHappy(19) => True  
+> isHappy(2) => False 
 ---
 
 ## Week 5 Assignment
@@ -59,6 +60,6 @@ docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
 ```
 * This command inspects the Docker container configuration to check the volume bindings (if any) by using a specific format to filter the Binds information. This helps you see which directories from the host are mounted inside the container.
 
-> docker inspect: Retrieves detailed information about a Docker container or image.
+> docker inspect: Retrieves detailed information about a Docker container or image.  
 > --format="{{ .HostConfig.Binds }}": Formats the output to only display the bind mounts configured for the container.
 <br>
