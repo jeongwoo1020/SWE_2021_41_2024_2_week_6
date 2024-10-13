@@ -2,7 +2,7 @@
 
 ## Week 4 Assignment
 
-* Link of [Repository Link](https://github.com/jeongwoo1020/SWE_2021_41_2024_2_week_4)
+* [Repository Link](https://github.com/jeongwoo1020/SWE_2021_41_2024_2_week_4)
 
 ```python
 def isHappy(n):
